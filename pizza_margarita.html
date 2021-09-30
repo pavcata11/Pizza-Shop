@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/Home.css">
+    <link rel="stylesheet" href="styles/pizzas.css">
+    <script src="./scrypts/buy.js"></script>
+  </head>
+<body>
+
+  <div class="navbar">
+      <a href="Home.html">Начало</a>
+      <a href="Catalog.html">Каталог</a>
+      <a href="Contact.html">Контакти</a>
+  </div>
+
+<h1>Пица Маргарита</h1>
+
+
+    <img src="images/piza-margarita.jpg" alt="pizza">
+    <h2>Цена:  8лв.</h2>
+    <h2>Необходими съставки</h2>
+
+    <ul>
+    <ol>
+    <li>брашно - 225 г.</li>
+      <li>сол - 1 ч.л.</li>
+        <li>мая - 1 ч.л. суха.</li>
+          <li>зехтин</li>
+            <li>олио - 1 с.л.</li>
+              <li>вода - 6 с.л. хладка</li>
+                <li>домати - 6 бр. нарязани</li>
+                  <li>моцарела - 175 г</li>
+                      <li>черен пипер</li>
+                          <li>босилек</li>
+                            <li>чесън - 1 скилидка</li>
+                              <li>сирене - 300 грама</li>
+                                <li>лук - 1 малка глава кромид</li>
+                                  <li>лук - 1 голяма глава</li>
+                                    <li>топено сирене - 70 г</li>
+                                </ol>
+    </ul>
+
+    <div class="article">
+    <h2>Начин на приготвяне</h2>
+    <p>
+      Пресейте брашното със солта в купа и добавете маята. Направете дупка в центъра и изсипете водата и олиото.
+      Замесете меко тесто и го оставете на топло място за един час. Замесете още веднъж и го разточете на тънка кора. Прехвърлете в намазнена тава.
+      Нарежете доматите и наредете върху тестото, върху тях сложете резените моцарела. Поръсете с черен пипер и сол, босилек и малко зехтин. Изпечете в загрята на 230 градуса фурна за 15-20 минути.
+    </p>
+  </div>
+
+
+  <div class="border_content">
+      <form >
+        <h2>Направи поръчка</h2>
+        <label for="fname">Name:</label>
+        <input type="text" id="Name"><br><br>
+        <label for="adress">Адрес:</label>
+        <input type="text" id="adress" name="adress"><br><br>
+      </form>
+            <div>
+              <button  onclick="order()">Заяви поръчка</button>
+            </div>
+  </div>
+
+  <p class="article">Специални предложения– в пицария Милеви можете да се възползвате от редица специални предложения. При поръчка на повече от три пици
+    (или три пици в комбинация с друга храна) ще получите 15% отстъпка върху цялата сметка. А ако вашата поръчка надхвърля 25 лв, имате право
+    и на безплатна бутилка Кока-Кола 1.250 мл., която ще върви отлично като напитка за вашата пица.<br></p>
+
+<div class="border_content">
+      <form >
+          <h2>Оставете коментар</h2>
+          <label for="fname">Име:</label>
+          <input type="text" id="Name_comment">
+          <label for="comment">Коментар:</label>
+          <input type="text" id="Comment"><br><br>
+      </form>
+              <div>
+                <button  onclick="comment()">Остави коментар</button>
+              </div>
+</div>
+<p class="comment_text" id="comment"></p>
+
+</body>
